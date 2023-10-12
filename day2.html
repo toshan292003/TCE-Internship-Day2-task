@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body{
+            margin: 0;
+            background-color: black;
+            padding: 0;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .navbar{
+            background-color: black;
+            position: sticky;;
+            padding: 10px 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .rowbox{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0;
+        }
+
+        .listitem{
+            margin: 0px 15px;
+            padding: 10px 0px;
+            font-size: 15px;
+            font-weight: 200;
+            text-transform: uppercase;
+            border: 2px solid transparent;
+            transition: all .5s ease;
+        }
+        
+        .listitem:hover{
+            border-bottom: 2px solid white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body">
+    <div class="navbar">
+        <div class="rowbox">
+            <img src="https://logos-world.net/wp-content/uploads/2021/03/Lamborghini-Logo.png" alt="" style="height: 50px;">
+            <ul style="list-style: none;" class="rowbox">
+                <li class="listitem">Models</li>
+                <li class="listitem">Beyond</li>
+                <li class="listitem">Ownership</li>
+                <li class="listitem">Motorsport</li>
+            </ul>
+        </div>
+        <div class="rowbox">
+            <ul style="list-style: none;" class="rowbox">
+                <li class="listitem">dealerships</li>
+                <li class="listitem">museum</li>
+                <li class="listitem">ownership</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
